@@ -1,0 +1,11 @@
+# Ignore everything
+/*
+!.gitignore
+
+
+!/tmux
+/tmux/plugins/tmux-sensible
+/tmux/plugins/tmux
+
+!/nvim
+!/kitty
