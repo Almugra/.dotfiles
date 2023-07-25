@@ -12,6 +12,7 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.rust" },
+    { import = "lazyvim.plugins.extras.lang.clangd" },
     { "nvim-pack/nvim-spectre", enabled = false },
     { "folke/persistence.nvim", enabled = false },
     { "folke/todo-comments.nvim", enabled = false },
