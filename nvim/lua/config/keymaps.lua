@@ -10,6 +10,8 @@ vim.keymap.set("n", "<leader>l", function()
   Util.float_term({ "lazygit" }, { esc_esc = false, ctrl_hjkl = false })
 end, { desc = "[L]azyGit" })
 
+vim.keymap.set("n", "<leader>j", "<cmd>!just<cr>", { desc = "[J]ust commands" })
+
 -- disable keymaps
 vim.keymap.set("n", "<leader>L", "<Nop>")
 
