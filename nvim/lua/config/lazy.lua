@@ -19,6 +19,7 @@ require("lazy").setup({
     { "akinsho/bufferline.nvim", enabled = false },
     { "echasnovski/mini.bufremove", enabled = false },
     { "echasnovski/mini.indentscope", enabled = false },
+    { "echasnovski/mini.pairs", enabled = false },
     { import = "plugins" },
     { import = "plugins.lsp" },
   },
