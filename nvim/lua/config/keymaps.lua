@@ -13,7 +13,7 @@ end, { desc = "[L]azyGit" })
 vim.keymap.set("n", "<leader>j", "<cmd>!just<cr>", { desc = "[J]ust commands" })
 
 -- save
-vim.keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "[J]ust commands" })
+vim.keymap.set("n", "<leader>w", "<cmd>w<cr>")
 vim.keymap.set("n", "<leader>v", "<cmd>vsplit<cr>", { desc = "[V]split" })
 
 -- disable keymaps
